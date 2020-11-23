@@ -7,4 +7,14 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="background_color">#191926</color>
+    <color name="pg_background">#191926</color>
+    <color name="grey_time">#565665</color>
+    <color name="tag">#FF3466</color>
+    <color name="reviews">#6D6D80</color>
+    <color name="storyline">#ECECEC</color>
+    <color name="cast">#ECECEC</color>
+    <color name="title_text">#ECECEC</color>
+    <color name="avatar_text">#D8D8D8</color>
 </resources>
