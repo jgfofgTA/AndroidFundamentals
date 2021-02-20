@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardBackgroundColor="@color/background_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/background"
+            android:layout_width="@dimen/card_view_width"
+            android:layout_height="@dimen/card_view_height"
+            app:srcCompat="@drawable/bg"
+            tools:ignore="ContentDescription" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/mask_and_movie"
+                android:layout_width="@dimen/mask_and_movie_width"
+                android:layout_height="@dimen/mask_and_movie_height"
+                android:layout_marginStart="@dimen/mask_and_movie_margin_horizontal"
+                android:layout_marginTop="@dimen/mask_and_movie_margin_top"
+                android:layout_marginEnd="@dimen/mask_and_movie_margin_horizontal"
+                android:layout_marginBottom="@dimen/mask_and_movie_margin_bottom"
+                android:background="@drawable/mask_and_movie_corners"
+                tools:ignore="ContentDescription" />
+            <View
+                android:layout_width="@dimen/mask_and_movie_width"
+                android:layout_height="@dimen/mask_and_movie_height"
+                android:layout_marginStart="@dimen/mask_and_movie_margin_horizontal"
+                android:layout_marginTop="@dimen/mask_and_movie_margin_top"
+                android:layout_marginEnd="@dimen/mask_and_movie_margin_horizontal"
+                android:layout_marginBottom="@dimen/mask_and_movie_margin_bottom"
+                android:background="@drawable/mask_and_movie_gradient"/>
+        </FrameLayout>
+        <ImageView
+            android:id="@+id/like"
+            android:layout_width="@dimen/like_width"
+            android:layout_height="@dimen/like_height"
+            android:layout_marginStart="@dimen/like_margin_start"
+            android:layout_marginTop="@dimen/like_margin_top"
+            android:layout_marginEnd="@dimen/like_margin_end"
+            android:layout_marginBottom="@dimen/like_margin_bottom"
+            app:srcCompat="@drawable/like"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/pg_bg"
+            android:layout_width="@dimen/pg_width"
+            android:layout_height="@dimen/pg_height"
+            android:layout_marginStart="@dimen/pg_margin_start"
+            android:layout_marginTop="@dimen/pg_margin_top"
+            android:layout_marginEnd="@dimen/pg_margin_end"
+            android:layout_marginBottom="@dimen/pg_margin_bottom"
+            app:srcCompat="@drawable/rectangle"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/pg"
+            android:layout_width="@dimen/pg_width"
+            android:layout_height="@dimen/pg_height"
+            android:layout_marginStart="@dimen/pg_margin_start"
+            android:layout_marginTop="@dimen/pg_margin_top"
+            android:layout_marginEnd="@dimen/pg_margin_end"
+            android:layout_marginBottom="@dimen/pg_margin_bottom"
+            android:fontFamily="@font/roboto_black"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/pg_text_size" />
+
+        <RatingBar
+            android:id="@+id/stars"
+            style="@style/CustomRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/star_height"
+            android:layout_marginStart="@dimen/star_linear_layout_margin_start"
+            android:layout_marginTop="@dimen/star_linear_layout_margin_top"
+            android:layout_marginEnd="@dimen/star_linear_layout_margin_end"
+            android:layout_marginBottom="@dimen/star_linear_layout_margin_bottom" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="@dimen/text_width"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/text_margin_horizontal"
+            android:layout_marginTop="@dimen/text_margin_top"
+            android:layout_marginEnd="@dimen/text_margin_horizontal"
+            android:layout_marginBottom="@dimen/text_margin_bottom"
+            android:fontFamily="@font/roboto_black"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="@dimen/time_text_width"
+            android:layout_height="@dimen/time_text_height"
+            android:layout_marginStart="@dimen/time_text_margin_horizontal"
+            android:layout_marginTop="@dimen/time_text_margin_top"
+            android:layout_marginEnd="@dimen/time_text_margin_horizontal"
+            android:layout_marginBottom="@dimen/time_text_margin_bottom"
+            android:fontFamily="@font/roboto_black"
+            android:textColor="@color/grey_time"
+            android:textSize="@dimen/time_text_size" />
+
+        <TextView
+            android:id="@+id/tag"
+            android:layout_width="@dimen/tag_width"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/tag_margin_start"
+            android:layout_marginTop="@dimen/tag_margin_top"
+            android:layout_marginEnd="@dimen/tag_margin_end"
+            android:layout_marginBottom="@dimen/tag_margin_bottom"
+            android:fontFamily="@font/roboto_thin"
+            android:textColor="@color/tag"
+            android:textSize="@dimen/tag_text_size" />
+
+        <TextView
+            android:id="@+id/reviews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/reviews_margin_start"
+            android:layout_marginTop="@dimen/reviews_margin_top"
+            android:layout_marginEnd="@dimen/reviews_margin_end"
+            android:layout_marginBottom="@dimen/reviews_margin_bottom"
+            android:fontFamily="@font/roboto_black"
+            android:textColor="@color/reviews"
+            android:textSize="@dimen/reviews_text_size" />
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

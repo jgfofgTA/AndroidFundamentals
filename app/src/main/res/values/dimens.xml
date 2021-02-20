@@ -4,6 +4,7 @@
 
     <dimen name="top_menu_1_margin_top">44dp</dimen>
     <dimen name="top_menu_1_margin_bottom">84dp</dimen>
+    <dimen name="recyclerview_margin_bottom">8dp</dimen>
 
     <dimen name="top_menu_1_text_margin_top">10dp</dimen>
     <dimen name="top_menu_1_text_margin_bottom">11dp</dimen>
@@ -33,8 +34,8 @@
     <dimen name="landscape_card_view_margin_end">47dp</dimen>
 
     <dimen name="text_width">154dp</dimen>
-    <dimen name="text_height">20dp</dimen>
-    <dimen name="text_margin_top">256dp</dimen>
+    <dimen name="text_height">28dp</dimen>
+    <dimen name="text_margin_top">246dp</dimen>
     <dimen name="text_margin_bottom">20dp</dimen>
     <dimen name="text_margin_horizontal">8dp</dimen>
     <dimen name="text_size">14sp</dimen>
@@ -53,9 +54,9 @@
     <dimen name="mask_and_movie_margin_horizontal">2dp</dimen>
 
     <dimen name="tag_width">146dp</dimen>
-    <dimen name="tag_height">12dp</dimen>
+    <dimen name="tag_height">16dp</dimen>
     <dimen name="tag_text_size">8sp</dimen>
-    <dimen name="tag_margin_top">214dp</dimen>
+    <dimen name="tag_margin_top">210dp</dimen>
     <dimen name="tag_margin_bottom">22dp</dimen>
     <dimen name="tag_margin_start">6dp</dimen>
     <dimen name="tag_margin_end">14dp</dimen>
@@ -161,12 +162,13 @@
     <dimen name="movie_details_avatar_text_height">32dp</dimen>
     <dimen name="landscape_movie_details_avatar_text_width">170dp</dimen>
     <dimen name="landscape_movie_details_avatar_text_height">32dp</dimen>
-    <dimen name="movie_details_avatar_text_margin_top">6dp</dimen>
+    <dimen name="movie_details_avatar_text_margin_top">82dp</dimen>
+    <dimen name="landscape_movie_details_avatar_text_margin_top">172dp</dimen>
     <dimen name="movie_details_avatar_text_size">12sp</dimen>
 
     <dimen name="movie_details_avatar_constraint_layout_view_top">7dp</dimen>
-    <dimen name="movie_details_avatar_constraint_layout_view_start">16dp</dimen>
-    <dimen name="movie_details_avatar_constraint_layout_view_end">16dp</dimen>
+    <dimen name="movie_details_avatar_constraint_layout_view_start">8dp</dimen>
+    <dimen name="movie_details_avatar_constraint_layout_view_end">8dp</dimen>
     <!--
     Because the window insets on round devices are larger than 15dp, this padding only applies
     to square screens.

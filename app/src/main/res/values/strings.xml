@@ -7,43 +7,12 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-
     <string name="movie_list">Movies list</string>
-
-    <string name="avengers">Avengers: End Game</string>
-    <string name="pg_avengers">13+</string>
-    <string name="time_avengers">137 MIN</string>
-    <string name="avengers_tag">Action, Adventure, Drama</string>
-    <string name="avengers_reviews">125 REVIEWS</string>
-
-    <string name="tenet">Tenet</string>
-    <string name="pg_tenet">16+</string>
-    <string name="time_tenet">97 MIN</string>
-    <string name="tenet_tag">Action, Sci-Fi, Thriller</string>
-    <string name="tenet_reviews">98 REVIEWS</string>
-
-    <string name="black_widow">Black Widow</string>
-    <string name="pg_black_widow">13+</string>
-    <string name="time_black_widow">102 MIN</string>
-    <string name="black_widow_tag">Action, Adventure, Sci-Fi</string>
-    <string name="black_widow_reviews">38 REVIEWS</string>
-
-    <string name="wonder_woman_1984">Wonder Woman 1984</string>
-    <string name="pg_wonder_woman_1984">13+</string>
-    <string name="time_wonder_woman_1984">120 MIN</string>
-    <string name="wonder_woman_1984_tag">Action, Adventure, Fantasy</string>
-    <string name="wonder_woman_1984_reviews">74 REVIEWS</string>
 
     <string name="storyline_text">After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos\' actions and restore balance to the universe.</string>
     <string name="storyline">Storyline</string>
     <string name="cast">Cast</string>
 
-    <string name="robert_downey_jr">Robert Downey Jr.</string>
-    <string name="chris_evans">Chris Evans</string>
-    <string name="mark_ruffalo">Mark Ruffalo</string>
-    <string name="chris_hemsworth">Chris Hemsworth</string>
     <string name="title_activity_main">MainActivity</string>
     <!--
     This string is used for square devices and overridden by hello_world in
